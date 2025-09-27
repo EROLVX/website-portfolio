@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio website</title>
+<link rel="stylesheet" type="text/css" href="style.css">
+<link rel="preconnect">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+           <script src="https://kit.fontawesome.com/c1f953b2a4.js" crossorigin="anonymous"></script>
+</head>
+<body>
+<div>
+    <div id="header">
+        <div class="container">          
+    <div class="NAVIGATION">
+        <nav>
+            <h2 class="logo"><span>EROL</span>VX.</h2>
+            <ul id="sidemenu">
+                <li><a href="#header">home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">services</a></li>
+                <li><a href="#portfolio">portfolio</a></li>
+                <li><a href="#Contact">contact</a></li>
+                <i class="fa-solid fa-square-xmark" onclick="closemenu()"></i>
+            </ul>
+            <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        
+        </nav>
+        <div class="content"> 
+            <h1>Hi I'm <span>James</span></h1>
+            <h3>a hobby collector</h3>
+        </div>
+    </div>
+  </div>
+</div>
+
+<!--------------ABOUT---------------->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                
+               <img src="img/About (2).jpg" >
+             </div>
+             
+             <div class="about-col-2">
+                <h1 class="subtitle".>About Me</h1>
+                <p>Hi, I’m James, a dynamic hybrid athlete who channels the energy and discipline
+                     from cycling, running, and outdoor adventures into my creative and professional
+                     pursuits. A true hobby collector, I thrive on exploring diverse interests
+                     that fuel my creativity and passion for innovation. With a strong eye for
+                     design and functionality, I excel in wireframing, prototyping, and visual design,
+                     blending technical precision with artistic vision to create meaningful user
+                     experiences. My expertise also extends to fashion, photography, editing, and
+                     web development, where I bring creativity and attention to detail to every project.
+                     Whether I’m designing captivating visuals, capturing stunning moments,
+                     or taking on new challenges, I approach every endeavor with enthusiasm and a 
+                     commitment to delivering impactful results. I am continually exploring and gaining
+                     new experiences to unlock my full potential and push the boundaries of 
+                     creativity and achievement.</p>
+                    
+                     
+                    <div class="tab-titles">
+                        <p class="tab-links active-link" onclick="opantab('skills', event)">SKILLS</p>
+                        <p class="tab-links" onclick="opantab('experience', event)">EXPERIENCE</p>
+                        <p class="tab-links" onclick="opantab('education', event)">EDUCATION</p>
+                    </div>
+                    
+                    <div class="tab-contents active-tab" id="skills">
+                        <ul>
+                            <li><span>SKILLS</span><br>Wireframing & Prototyping (Figma) 
+                                <br>Visual Design<br>Photography <br> Photo & Video Editing
+                                <br> Web Development</li>
+                        </ul>
+                    </div>        
+                    <div class="tab-contents" id="experience">
+                        <ul>
+                            <li><span>EXPERIENCE</span> <br>Applying athletic discipline to creative work
+                               <br> Delivering artistic designs 
+                               <br> Photography and web projects  
+                               <br> Exploring hobbies for creativity 
+                                    Tackling challenges with focus</li>
+                        </ul> 
+                    </div>
+                    <div class="tab-contents" id="education">
+                        <ul>
+                            <li><span>EDUCATION</span><br>BSIT graduate from youtube, currently completing studies
+                                 at Guimaras State University
+                                <br>Mentored by a triathlete and adventure coach, 
+                                <br>combining technical expertise,
+                                 creativity, and athletic discipline to deliver impactful results</li>
+                        </ul>
+                    </div>                 
+            </div>    
+        </div>
+    </div> 
+</div>
+
+<!---------------services-------------->
+<div id="services">
+    <div class="container">
+        <h1 class="sub-title">My Services</h1>
+        <div class="service-list">
+            <div>
+                <i class="fas fa-code"></i>
+                <h2>Creative Design Solutions</h2>
+                <p>I specialize in wireframing, prototyping, and visual
+                     design, leveraging tools like Figma to craft user-friendly
+                     and captivating designs. By combining artistic vision 
+                     with technical precision, I create meaningful and functional
+                     user experiences that align with modern design standards 
+                     and client goals.</p>
+                     <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-photo-film"></i>
+                <h2>Photography & Multimedia Editing</h2>
+                <p>From capturing striking moments to producing high-quality
+                     photo and video content, I excel in delivering compelling
+                     visuals. My expertise in photography and editing allows me 
+                     to create vibrant and impactful imagery tailored for 
+                     personal, social, or commercial purposes.</p>
+                     <a href="#">Learn more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-child-reaching"></i>
+                <h2>Athletic Coaching & Mentorship </h2>
+                <p>Drawing on my experience as an athlete with a passion for outdoor
+                     adventures, I provide coaching in cycling, running, and other 
+                     endurance activities. By fostering discipline, mental resilience,
+                     and effective training strategies, I empower individuals to 
+                     embrace an adventurous lifestyle and unlock their full potential 
+                     in both athletics and outdoor pursuits.</p>
+                     <a href="#">Learn more</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!---------------portfolio---------------->
+
+<div id="portfolio">
+    <div class="container">
+        <h1 class="sub-title">My Work</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="img/CDS.jpg">
+                <div class="layer">
+                    <h3>Coffee App Design</h3>
+                    <p>Simplifying the coffee experience by connecting
+                         users to delightful brews and coffee enthusiasts
+                         worldwide through an innovative app..</p>
+                         <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>                  
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/PME.jpg">
+                <div class="layer">
+                    <h3>Visual Storytelling & Creative Editing</h3>
+                    <p>Delivering impactful visuals using tools like Figma 
+                        and Canva, specializing in photography, video editing, 
+                        and design for personal, social, or commercial projects.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>                   
+                </div>
+            </div>
+            <div class="work">
+                <img src="img/ACM.jpg">
+                <div class="layer">
+                   <h3>Endurance Training & Adventure Mentorship</h3>
+                   <p>Offering coaching in cycling, running, and endurance
+                        sports to help individuals achieve athletic goals and 
+                        embrace outdoor adventures.</p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+         </div>
+         <a href="#" class="btn2">See more</a>
+    </div>
+</div>
+
+<!-----------------------------contanct---------------------------->
+ 
+<div id="Contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact me</h1>
+                <p><span><i class="fa-solid fa-paper-plane"></i></span></i>erollagonero@gmail.com</p>
+                <p><span><i class="fa-solid fa-phone"></i></span></i>09090892011</p>
+                <div class="social-icons">
+                    <a href="https://www.facebook.com/share/19DtS9twpb/"><i class="fa-brands fa-facebook"></i></a>
+                    <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Fwww.instagram.com%2F_u%2Ferolvx_%3Figsh%3DZnE5bWI3cncxdmJt%26utm_source%3Dqr%26fbclid%3DIwZXh0bgNhZW0CMTAAAR11JzdfjV0Lf30O0wlJUplRJuOP-9Pb24qvcYdYBpO0VOFWQ1k48YuQQMQ_aem_pcxlzBAbp3PBUimZY0Pwfg&h=AT3EwahMM2KgwFUzlSyGpvQ1dxXKzrD9VRIl3n6XuY-HZAAP4jH7k0ScTGjFQAWSrSfF629PqC0Jk1Fzkj_CMo5QjSzGMxdxeoH_tjtQTQsxxqsXWr_BTIp6bGMdbd5S"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://l.facebook.com/l.php?u=https%3A%2F%2Ft.me%2FEROLVX%3Ffbclid%3DIwZXh0bgNhZW0CMTAAAR2R97-_RcHYIIlByLf1l3wdHETNumdb4dLPrUY-esnfcYaDPgwNOzS6UVA_aem_n-rDxKTcwSevQXPvUtvTTQ&h=AT3X8vd-AGkF72UaJ2CETWk1r3-FimBj_bwcstlNRQisdy5JxPg_p92PVBzqMOX8yxwP54Ib5dGA_dS5ePReXQ71u7SlR2vpI0lDmjfj6qZz7uCz27hr4EyfemyULLa5bWA50w"><i class="fa-brands fa-telegram"></i></a>
+                    <a href=""><i class="fa-brands fa-whatsapp"></i></a>
+        </div>
+    </div>
+        </div>
+<div class="copyright">
+    <p>© James Erol  2025. All rights reserved.</p>
+</div>
+
+
+<script>
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents"); // Fixed class name
+
+    function opantab(tabname, event) {
+        // Remove active class from all tab links
+        for (let tablink of tablinks) { 
+            tablink.classList.remove("active-link");
+        }
+        
+        // Remove active class from all tab contents
+        for (let tabcontent of tabcontents) {
+            tabcontent.classList.remove("active-tab");
+        }
+        
+        // Add active class to the clicked tab link
+        event.currentTarget.classList.add("active-link");
+        
+        // Add active class to the corresponding tab content
+        document.getElementById(tabname).classList.add("active-tab"); // Fixed spelling
+    }
+</script>
+
+<script>
+
+    var sidemenu = document.getElementById("sidemenu");
+
+    function openmenu(){
+        sidemenu.style.right = "0";
+    }
+    function closemenu(){
+        sidemenu.style.right = "200px";
+    }
+
+</script>
+
+
+
+
+</body>
+</html>
